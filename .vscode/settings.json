@@ -1,0 +1,43 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "javascript.validate.enable": false,
+  "files.exclude": {
+    "node_modules/": true,
+    "coverage/": true,
+    "doc/": true,
+    "typings/": true,
+    "dist/": true,
+    ".cache/": true,
+    "*.tern-port": true,
+    "*.swp": true,
+    "css/style.min.css": true,
+    "npm-debug.logj": true,
+    "storybook-static/": true
+  },
+  "files.eol": "\n",
+  "search.exclude": {
+    "node_modules/": true,
+    "coverage/": true,
+    "doc/": true,
+    "typings/": true,
+    "dist/": true,
+    ".cache/": true,
+    "*.tern-port": true,
+    "*.swp": true,
+    "css/style.min.css": true,
+    "npm-debug.logj": true,
+    "storybook-static/": true
+  },
+  "file.associations": {
+    ".eslintrc": "json",
+    ".babelrc": "json",
+    ".jsdoc": "json"
+  },
+  "editor.rulers": [80, 100],
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.trimTrailingWhitespace": true,
+  "stylelint.config": {
+    "extends": "stylelint-config-standard"
+  },
+}
